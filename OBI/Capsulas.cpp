@@ -16,7 +16,9 @@ int main(){
     }
     int dias = 0;
     int moedas = 0;
- 
+    /*
+    enquanto moedas for menor que m, vai passando os dias
+    */
     while(moedas < m){
         dias++;
         for(int i = 0; i < c; i++){
